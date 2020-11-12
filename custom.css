@@ -1,0 +1,364 @@
+/*used to make left alignment flush with containers*/
+.navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 1031;
+    background-color: white;
+}
+
+/*to use for note headers, migrate to this from h6*/
+p.note-header {
+
+}
+
+/*used for note list items*/
+p.note-item {
+    margin-bottom:0rem;
+    line-height: 1.25rem;
+}
+
+/*use for note list item that needs space from the others*/
+p.note-item-gap {
+    margin-top:1rem;
+    line-height: 1rem;
+}
+
+/*jumbotron with matching background*/
+.jumbotron {
+    background-color: white;
+}
+
+/*padding for hero jumbotron*/
+.jumbotron-fluid {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+/*used to give anything that flex wraps horizontal padding if necessary*/
+.flex-padding {
+    padding-bottom: 5rem;
+}
+
+.flex-padding-m {
+    padding-bottom: 3rem;
+}
+
+.flex-padding-s {
+    padding-bottom: 2rem;
+}
+
+.flex-padding-xs {
+    padding-bottom: 1rem;
+}
+
+/*used to style navbar brand to match section headers*/
+.navbar-light .navbar-brand {
+    font-size: 1rem;
+    color: blue;
+    font-weight: 500;
+    padding-left: 15px;
+    z-index: 1031;
+}
+
+/*used to style section headers that match navbar brand*/
+p.section-header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 1rem;
+    color: blue;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/*used to make right alignment flush with containers, with style update*/
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 0rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*optimize h1 font size*/
+.h1, h1 {
+    font-size: 2.25rem;
+}
+
+.dotted-spaced {
+    background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: center;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dotted-spaced-w {
+    background-image: linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: center;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.last-project {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.footer-divider {
+    border-top: 1px solid;
+}
+
+hr {
+    border-top: 1px solid;
+    border-color:darkgrey;
+    padding-bottom: 1rem;
+}
+
+body {
+    padding-top: 56px;
+}
+
+a.body-link {
+    text-decoration: underline;
+}
+
+a.name:active, a.name:hover, a.name:visited, a.name:link, a.name {
+    color:blue;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+a.name-light:active, a.name-light:hover, a.name-light:visited, a.name-light:link, a.name-light {
+    color:#4d4dff;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+#top{
+    scroll-behavior:smooth;
+}
+
+.html{
+    scroll-behavior:smooth;
+}
+
+.top-right {
+    position: absolute;
+    top: 12px;
+    right: 32px;
+}
+
+.relative {
+    position: relative;
+}
+
+.modal-dialog {
+    max-width: 100vw;
+    margin:0px;
+    padding: 0px;
+}
+
+.modal-title {   
+}
+
+.close {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-shadow: none;
+    opacity:1;
+    background-color: none;
+}
+
+close:hover {
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+    opacity:1;
+}
+
+
+div.modal-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: none;
+}
+
+.modal-header .close {
+    padding:0px;
+    padding-top: 3px;
+    position:relative;
+    margin: 0px;
+}
+
+button.close:focus {
+    outline: none;
+    color: white;
+    opacity: 1;
+}
+
+button.close:hover {
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+    opacity:1;
+}
+
+.button, .button:hover {
+    opacity:1;
+}
+
+.modal-content {
+    background-color: #161616;
+    border-radius: 0rem;
+    background-clip: none;
+    border: 0px;
+    height:100vh;
+}
+
+p.modal-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0rem;
+}
+
+a.close-button:hover {
+    color: red;
+}
+
+a:hover {
+    color:red;
+    opacity:1;
+}
+.modal-dialog-scrollable .modal-content {
+    max-height: calc(100vh);
+}
+
+.bg-dark {
+    background-color: #161616 !important;
+}
+
+.text-white-body {
+    color:white;
+    line-height: 1.25rem;
+}
+
+.modal-footer {
+    border-top:0px;
+    justify-content:none;
+    display: block;
+    padding: 1rem;
+}
+
+.carousel-item{
+    height: calc(100vh - 215px);
+    align-items: baseline;
+}
+
+.carousel-item img{
+    position:absolute;
+    /*
+    height: 100%;
+    width: 100%;
+    */
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.top-jumbo-padding {
+    padding-top: 6rem;
+}
+
+@media (max-width:991.98px), (max-height:413.98px){
+    .carousel-item img {
+
+        height: 100%;
+        width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .carousel-item {
+        height: calc(100vh - 120px);
+        align-items: baseline;
+    }
+    
+    .top-jumbo-padding {
+        padding-top: 0px;
+    }
+}
+
+div.modal-body {
+    padding:0px;
+}
+
+a.text-white:hover {
+    text-decoration: none;
+}
+
+.text-right {
+    padding-right: 0px;
+}
+
+.text-right2 {
+    text-align:right;
+    padding-right: 15px;
+}
+
+.text-left {
+    padding-left: 0px;
+}
+
+a.plus:active, a.plus:hover, a.plus:visited, a.plus:link, a.plus {
+    color:gray;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.figure-caption {
+    font-size:16px;
+    color:#6c757d;
+}
+
+.position-fix {
+    position:absolute;
+}
+
+.top-off {
+    padding-top: 2rem;
+}
+
+video {
+  width: 100%;
+  height: auto;    
+}
+
+blockquote {
+    color:white;
+}
+
+blockquote-footer {
+    color:#6c757d;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 1rem !important;
+}
+
+.blockquote-footer::before {
+    content: "";
+}
